@@ -1,12 +1,12 @@
-define(function () {
+define(() => {
 	
 	console.log("JS : print");
 	
-	var printLocal = function (msg) {			
+	const print = msg => {			
 		console.log(msg);
 	};
 
     return {	    
-        print: printLocal
+        print
     };
 });
